@@ -36,123 +36,123 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/shops",
     name: "Shops",
-    component: Shops
+    component: Shops,
   },
   {
     path: "/shops/:id/show",
     name: "Shop Informations",
-    component: ViewShop
+    component: ViewShop,
   },
   {
     path: "/shops/create",
     name: "Create Shop",
-    component: CreateShop
+    component: CreateShop,
   },
   {
     path: "/shops/:id/edit",
     name: "Edit Shop",
-    component: EditShop
+    component: EditShop,
   },
   {
     path: "/assistants",
     name: "Assistants",
-    component: Assistants
+    component: Assistants,
   },
   {
     path: "/assistants/:id/show",
     name: "Assistant Informations",
-    component: ViewAssistant
+    component: ViewAssistant,
   },
   {
     path: "/assistants/create",
     name: "Create Assistant",
-    component: CreateAssistant
+    component: CreateAssistant,
   },
   {
     path: "/assistants/:id/edit",
     name: "Edit Assistant",
-    component: EditAssistant
+    component: EditAssistant,
   },
   {
     path: "/services",
     name: "Services",
-    component: Services
+    component: Services,
   },
   {
     path: "/services/:id/show",
     name: "Service Informations",
-    component: ViewService
+    component: ViewService,
   },
   {
     path: "/services/create",
     name: "Create Service",
-    component: CreateService
+    component: CreateService,
   },
   {
     path: "/services/:id/edit",
     name: "Edit Service",
-    component: EditService
+    component: EditService,
   },
   {
     path: "/products",
     name: "Products",
-    component: Products
+    component: Products,
   },
   {
     path: "/products/:id/show",
     name: "Product Informations",
-    component: ViewProduct
+    component: ViewProduct,
   },
   {
     path: "/products/create",
     name: "Create Product",
-    component: CreateProduct
+    component: CreateProduct,
   },
   {
     path: "/products/:id/edit",
     name: "Edit Product",
-    component: EditProduct
+    component: EditProduct,
   },
   {
     path: "/customers",
     name: "Customers",
-    component: Customers
+    component: Customers,
   },
   {
     path: "/customers/:id/show",
     name: "Customer Informations",
-    component: ViewCustomer
+    component: ViewCustomer,
   },
   {
     path: "/customers/create",
     name: "Create Customer",
-    component: CreateCustomer
+    component: CreateCustomer,
   },
   {
     path: "/customers/:id/edit",
     name: "Edit Customer",
-    component: EditCustomer
+    component: EditCustomer,
   },
   {
     path: "/orders",
     name: "Orders",
-    component: Orders
+    component: Orders,
   },
   {
     path: "/orders/create",
     name: "Create Order",
-    component: CreateOrder
-  }
+    component: CreateOrder,
+  },
 ];
 
 const router = new VueRouter({
   routes,
-  mode: "history"
+  mode: "history",
 });
 
 export default router;
